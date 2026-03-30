@@ -8,4 +8,11 @@ jobs:
         run: |
           echo "Hi Suresh"   
           echo "How are you?"
+
+  second:
+    runs-on: ubuntu-latest
+    needs: first
+    steps:
+      - name: for fun
+        run: echo "Iam Good"
   
