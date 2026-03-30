@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: fun
-      run: echo "Hi Suresh"
-      
-      
+        run: echo "Hi Suresh"       
+  
