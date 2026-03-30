@@ -1,0 +1,8 @@
+name: Checkout file
+on: push
+jobs:
+  file1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reading file
+        run: cat index.html
