@@ -14,5 +14,5 @@ jobs:
     needs: first
     steps:
       - name: for fun
-        run: echo "Iam Good {{vars.NAME}}"
+        run: echo "Iam Good ${{vars.NAME}}"
   
