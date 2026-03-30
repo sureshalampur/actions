@@ -3,6 +3,7 @@ on: push
 jobs:
   file1:
     runs-on: ubuntu-latest
+    uses: actions/checkout@v4
     steps:
       - name: Reading file
         run: cat index.html
